@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+	<html class="sl-root decks export offline loaded">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover, minimal-ui">
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		<link rel="manifest" href='data:application/manifest+json,{"display": "standalone", "name": "Introduction to Python - L7"}' />
+		<title>Introduction to Python - L7</title>
+
+
+		<link rel="stylesheet" type="text/css" href="lib/offline-v2.css">
+
+
+
+		<!-- User CSS -->
+		<style id="user-css-output" type="text/css">
+			.reveal .monospace-font h1,
+.reveal .monospace-font h2,
+.reveal .monospace-font h3 {
+  font-family: monospace;
+}
+
+		</style>
+	</head>
+	<body class="reveal-viewport theme-font-helvetica theme-color-black-mint">
+		<div class="reveal">
+			<div class="slides">
+				<section data-background-image="introduction-to-python-l7/5575a831fd35ef978963ce97fc5c4737" data-background-opacity="0.2" data-background-transition="fade" data-id="250c8f5063c8be10c0164afd81052765" data-transition="fade"><div class="sl-block" data-block-type="text" style="width: 837px; left: 61.5px; top: 192px; height: auto;" data-block-id="c538a75ae95b1376efb84fca8ffe8004"><div class="sl-block-style" style="z-index: 10; transform: rotate(0deg); filter: drop-shadow(rgba(28, 235, 123, 0.7) 0px 0px 6px);"><div class="sl-block-content monospace-font" data-placeholder-tag="h1" style="z-index: 10; color: rgb(28, 235, 123); font-size: 150%; line-height: 1.04;" data-has-line-height="" data-placeholder-text="Text"><h1>{python}</h1></div></div></div>
+
+<div class="sl-block" data-block-type="text" style="width: 837px; left: 61.5px; top: 419.943px; height: auto;" data-name="text-d18e72" data-block-id="8df9aa563317b80ff2a934359208861e"><div class="sl-block-content" data-placeholder-tag="p" style="z-index: 11; text-align: center; color: rgb(164, 194, 244); font-size: 110%;" data-placeholder-text="Text"><p>Introduction to Python - Lecture 7</p></div></div>
+
+
+
+
+<div class="sl-block" data-block-type="text" style="width: 837px; left: 61.5px; top: 473.349px; height: auto;" data-block-id="e985c32242913eca398b5eb1cea763d2" data-name="text-6fe9d5"><div class="sl-block-content" data-placeholder-tag="p" style="z-index: 12; text-align: center; color: rgb(164, 194, 244); font-size: 110%;" data-placeholder-text="Text"><p><span style="font-size:0.7em">Zohair ul Hasan</span></p></div></div></section><section data-transition="fade" data-auto-animate="" data-id="50444fc677d7bec97c49473be355d203"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 89.0178px;" data-name="text-76ddde" data-block-id="f5c22337ba9d78649d9d78ff3d9d5c56"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; color: rgb(164, 194, 244);"><h2>Recap</h2></div></div>
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 330.5px;" data-name="text-f4a9a9" data-block-id="fd88d6bdf9a362ce3a44a9d8e255bf88"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;"><p>Dictionaries</p></div></div></section><section data-transition="fade" data-auto-animate="" data-id="7b7643f6d164c582d7ff33c33f66289c"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 89.0178px;" data-name="text-76ddde" data-block-id="2b0137fb5ee59ff17fef6135a6170c32"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; color: rgb(164, 194, 244);"><h2>Today's Lecture</h2></div></div>
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 330.5px;" data-name="text-f4a9a9" data-block-id="1d3c3811628d1bc7f5ecfa6a88d6bc2f"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;"><p>Strings</p></div></div></section><section data-transition="fade" data-auto-animate="" data-id="406ee3af13849f1196e529d0d89de010"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 89.0178px;" data-name="text-76ddde" data-block-id="99d2a4dd590bf12e5768324dd9522a5d"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; color: rgb(164, 194, 244);"><h2>How do we type a quote inside a string?</h2></div></div>
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 341.91px;" data-name="text-f4a9a9" data-block-id="86c09b3244c82df45442e8f45bf0fd5a"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;"><p>'That is Alice's cat.'</p></div></div>
+<div class="sl-block" data-block-type="drawing" style="width: 44.233px; height: 61.8198px; left: 517.661px; top: 280.09px;" data-name="drawing-26154e" data-block-id="3cdad153bab032ab558fd235b6e297b4"><div class="sl-block-content" data-points="554.2 325.08,550.8 328.79,547.76 332.5,544.15 336.62,540.32 341.12,536.99 345.64,534.33 349.48,532.37 352.84,531.06 355.77,529.84 358.8,528.83 361.62,528.06 363.95,527.31 366.01,526.17 369.89,525.41 372.17,524.84 374.33,524.1 377.64,523.31 379.77,522.3 382.46,521.49 384.53,519.92 383.24,518.86 381.51,516.66 378.61,514.39 377,512.35 376.56,513.47 378.41,516.12 380.26,518.04 381.6,520.08 381.9,521.96 382.93,523.36 384.37,525.67 383.7,527.32 382.38,528.86 380.7,530.35 379.05,531.8 377.56,533.85 377.16" data-timestamp="1720612948214" style="z-index: 12;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="none" width="100%" height="100%" viewbox="511.3783874511719 323.6685791015625 44.233001708984375 61.81982421875"><path fill="rgb(164, 194, 244)" d="M 554.5067484624965 326.85425962773263 Q 554.51 326.85 552.92 328.43 551.32 330.01 549.7 331.82 548.08 333.64 546.27 335.72 544.46 337.81 542.62 340.03 540.79 342.25 539.19 344.41 537.59 346.57 536.31 348.45 535.04 350.34 534.11 351.96 533.18 353.59 532.53 355.05 531.88 356.52 531.32 358 530.77 359.48 530.31 360.84 529.86 362.2 529.5 363.36 529.14 364.53 528.73 365.78 528.32 367.03 527.79 368.68 527.25 370.33 526.91 371.53 526.56 372.74 526.27 373.94 525.98 375.13 525.6 376.6 525.22 378.07 524.81 379.3 524.4 380.54 523.63 382.61 522.86 384.69 522.6 385.01 522.35 385.33 521.95 385.44 521.55 385.55 521.17 385.41 520.78 385.27 520.55 384.92 520.33 384.58 520.02 384.33 519.71 384.07 518.55 382.96 517.39 381.84 516.41 380.62 515.44 379.41 513.63 378.55 511.82 377.7 511.59 377.36 511.36 377.01 511.38 376.6 511.39 376.19 511.65 375.87 511.9 375.54 512.29 375.43 512.69 375.31 512.92 375.59 513.15 375.88 514.1 376.89 515.05 377.91 516.04 378.6 517.04 379.29 518.25 379.95 519.45 380.61 521.23 381.18 523.01 381.76 524.35 381.76 525.68 381.77 526.82 380.65 527.97 379.53 528.72 378.72 529.46 377.92 530.39 377.44 531.32 376.97 532.26 377.09 533.19 377.21 533.21 378.15 533.24 379.09 532.31 379.27 531.39 379.44 531.07 378.55 530.76 377.66 531.59 377.21 532.41 376.76 532.99 377.51 533.56 378.26 531.81 379.88 530.05 381.51 529.2 382.39 528.35 383.28 527.29 384.03 526.23 384.79 524.83 385.05 523.43 385.3 521.86 384.51 520.29 383.72 518.97 383.2 517.64 382.67 516.57 382.04 515.5 381.41 513.88 379.72 512.27 378.02 511.82 377.52 511.36 377.01 511.38 376.6 511.39 376.19 511.65 375.87 511.9 375.54 512.29 375.43 512.69 375.31 513.08 375.45 513.47 375.6 515.41 376.66 517.35 377.72 518.74 379.48 520.13 381.23 521.05 382.89 521.97 384.56 522.16 384.95 522.35 385.33 521.95 385.44 521.55 385.55 521.17 385.41 520.78 385.27 520.55 384.92 520.33 384.58 520.34 384.17 520.36 383.76 521.16 381.72 521.96 379.68 522.38 378.56 522.79 377.44 523.15 375.96 523.51 374.49 523.85 373.24 524.19 372 524.59 370.82 525 369.64 525.48 367.93 525.97 366.22 526.4 364.98 526.83 363.74 527.26 362.58 527.69 361.42 528.22 360.05 528.75 358.68 529.39 357.18 530.02 355.68 530.73 354.14 531.44 352.61 532.41 350.91 533.38 349.22 534.68 347.3 535.98 345.38 537.61 343.18 539.24 340.98 541.1 338.74 542.95 336.5 544.75 334.42 546.54 332.35 548.07 330.41 549.61 328.47 551.01 326.7 552.41 324.93 552.78 324.52 553.15 324.12 553.32 323.98 553.5 323.84 553.71 323.76 553.92 323.68 554.14 323.67 554.36 323.66 554.58 323.72 554.79 323.78 554.98 323.91 555.16 324.03 555.3 324.2 555.44 324.38 555.52 324.59 555.6 324.8 555.61 325.02 555.62 325.24 555.56 325.46 555.5 325.67 555.37 325.86 555.25 326.04 554.88 326.45 Z"></path></svg></div></div>
+<div class="sl-block" data-block-type="code" style="width: 469.632px; height: 187.952px; left: 282.845px; top: 422.002px;" data-name="code-bd99b7" data-block-id="312d8876282330d5de09e22847807a45"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 13;"><pre style="font-size: 24px; line-height: 29px; tab-size: 4;" class="python"><code data-line-numbers="">&gt;&gt;&gt; 'That is Alice's cat.'
+  File "&lt;stdin&gt;", line 1
+    'That is Alice's cat.'
+                   ^
+SyntaxError: invalid syntax</code></pre></div></div></section><section data-transition="fade" data-auto-animate="" data-id="693bd7e0984fcfa81a054f11345c7daa"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 89.0178px;" data-name="text-76ddde" data-block-id="2689af9e3d18a1b33d07ae60d6fd05cf"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; color: rgb(164, 194, 244);"><h2>Double quotes</h2></div></div>
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 294.896px;" data-name="text-f4a9a9" data-block-id="82cb3dc670eee958a9f26dd51d27fbe5"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;"><p>"That is Alice's cat."</p></div></div>
+<div class="sl-block" data-block-type="code" style="width: 461.255px; height: 107.319px; left: 245.184px; top: 401.058px;" data-name="code-bd99b7" data-block-id="af0b58093910c40cb2bca8fac4679c9e"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 12;"><pre style="font-size: 24px; line-height: 29px; tab-size: 4;" class="python"><code data-line-numbers="">&gt;&gt;&gt; "That is Alice's cat."
+"That is Alice's cat."</code></pre></div></div></section><section data-transition="fade" data-auto-animate="" data-id="95c9558ea6dbc5512f4306468be13a4b"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 89.0178px;" data-name="text-76ddde" data-block-id="97b2040ba8f81ceb9fefcd56e6de9263"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; color: rgb(164, 194, 244);"><h2>Escape characters</h2></div></div>
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 294.896px;" data-name="text-f4a9a9" data-block-id="94bbc4724d1333412fcfb712e0e66da8"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;"><p>'That is Alice\'s cat.'</p></div></div>
+<div class="sl-block" data-block-type="code" style="width: 461.255px; height: 107.319px; left: 245.184px; top: 401.058px;" data-name="code-bd99b7" data-block-id="ac0cf2e22e50a805a3831200d1029596"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 12;"><pre style="font-size: 24px; line-height: 29px; tab-size: 4;" class="python"><code data-line-numbers="">&gt;&gt;&gt; 'That is Alice\'s cat.'
+"That is Alice's cat."</code></pre></div></div></section><section data-transition="fade" data-auto-animate="" data-id="f91be044b101ab48ff4423bdbe12feaf"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 89.0178px;" data-name="text-76ddde" data-block-id="d26c92994c467e96e5b20e99b283bef3"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; color: rgb(164, 194, 244);"><h2>Escape characters</h2></div></div>
+
+<div class="sl-block" data-block-type="table" style="height: auto; min-width: 120px; width: 800px; left: 80px; top: 274.5px;" data-name="table-6ac398" data-block-id="e458536978d1a700ae1268e6b10e2749"><div class="sl-block-content" style="z-index: 11;" data-table-rows="6" data-table-cols="2"><table><tbody>
+<tr>
+<th>Escape Character</th>
+<th>Prints as</th>
+</tr>
+<tr>
+<td>\'</td>
+<td>Single quote</td>
+</tr>
+<tr>
+<td>\"</td>
+<td>Double quote</td>
+</tr>
+<tr>
+<td>\t</td>
+<td>Tab</td>
+</tr>
+<tr>
+<td>\n</td>
+<td>Newline</td>
+</tr>
+<tr>
+<td>\\</td>
+<td>Backslash</td>
+</tr>
+</tbody></table></div></div></section><section data-transition="fade" data-auto-animate="" data-id="4e6ef2f2678a2471eeed14fb35fbe41c"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 89.0178px;" data-name="text-76ddde" data-block-id="c82db3d43fcdb74346d861d1aaa45dc3"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; color: rgb(164, 194, 244);"><h2>Escape characters</h2></div></div>
+
+<div class="sl-block" data-block-type="code" style="width: 866.512px; height: 207.849px; left: 46.744px; top: 279.586px;" data-name="code-e675e3" data-block-id="23b07a53ec96f7d92788781ff01e562b"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 11;"><pre class="plaintext" style="font-size: 24px; line-height: 29px; tab-size: 4;"><code data-line-numbers="">&gt;&gt;&gt; print("Hello there!\nHow are you?\nI\'m doing fine.")
+Hello there!
+How are you?
+I'm doing fine.</code></pre></div></div></section><section data-transition="fade" data-auto-animate="" data-id="b48d62ce183620aea5009f2989bfdc33"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 89.0178px;" data-name="text-76ddde" data-block-id="b17cdac9872a5f8cf2fb445cf7f238ea"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; color: rgb(164, 194, 244);"><h2>Raw Strings</h2></div></div>
+
+<div class="sl-block" data-block-type="code" style="width: 569.114px; height: 107.319px; left: 195.443px; top: 296.341px;" data-name="code-38fd3e" data-block-id="3967b99b0b6b053193d9c071136296a8"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 11;"><pre class="plaintext" style="font-size: 24px; line-height: 29px; tab-size: 4;"><code data-line-numbers="">&gt;&gt;&gt; print(r'That is Carol\'s cat.')
+That is Carol\'s cat.</code></pre></div></div></section><section data-transition="fade" data-auto-animate="" data-id="7b8379d7369d0270acedd87788990b1f"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 89.0178px;" data-name="text-76ddde" data-block-id="7e3bb5c6c295f2614ea063d0dfa13ed3"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; color: rgb(164, 194, 244);"><h2>Multiline Strings with triple quotes</h2></div></div>
+
+<div class="sl-block" data-block-type="code" style="width: 907.238px; height: 217.273px; left: 26.381px; top: 299.483px;" data-name="code-38fd3e" data-block-id="4dd417aab53a224ef139a0bafe5b2353"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 11;"><pre class="python" style="font-size: 20px; line-height: 24px; tab-size: 4;"><code data-line-numbers="">print('''Dear Alice,
+
+Eve's cat has been arrested for catnapping, cat burglary, and extortion.
+
+Sincerely,
+Bob''')</code></pre></div></div></section><section data-transition="fade" data-auto-animate="" data-id="6e432ae2fbe18b020a2738fe78efd966"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 89.0178px;" data-name="text-76ddde" data-block-id="2de420c986cf3c716e1d7925f87b6a9e"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; color: rgb(164, 194, 244);"><h2>Multiline Strings with triple quotes</h2></div></div>
+
+<div class="sl-block" data-block-type="code" style="width: 907.238px; height: 217.273px; left: 26.381px; top: 299.483px;" data-name="code-38fd3e" data-block-id="5e6e15c3fd4aca242b82b57cae2d9374"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 11;"><pre class="python" style="font-size: 20px; line-height: 24px; tab-size: 4;"><code data-line-numbers="">print('''Dear Alice,
+
+Eve's cat has been arrested for catnapping, cat burglary, and extortion.
+
+Sincerely,
+Bob''')</code></pre></div></div></section><section data-transition="fade" data-auto-animate="" data-id="8b9c3cb5d05d613eaedf7b0960d053a8"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 89.0178px;" data-name="text-76ddde" data-block-id="0b1f9fac9db5f63603f6bb2d12996b7b"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; color: rgb(164, 194, 244);"><h2>Multiline Comments</h2></div></div>
+
+<div class="sl-block" data-block-type="code" style="width: 708.274px; height: 303.142px; left: 125.863px; top: 292.153px;" data-name="code-38fd3e" data-block-id="f136c4a29899a56bfffdeeb68f1b15b9"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 11;"><pre class="python" style="font-size: 20px; line-height: 24px; tab-size: 4;"><code data-line-numbers="">"""This is a test Python program.
+Written by Al Sweigart al@inventwithpython.com
+
+This program was designed for Python 3, not Python 2.
+"""
+
+def spam():
+    """This is a multiline comment to help
+    explain what the spam() function does."""
+    print('Hello!')</code></pre></div></div></section><section data-transition="fade" data-auto-animate="" data-id="c7cd4d7e3dadb9d5bd03e612810cbe1b"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 89.0178px;" data-name="text-76ddde" data-block-id="4b17684c14b4595dd6e546d47f34e85a"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; color: rgb(164, 194, 244);"><h2>Putting strings inside other strings</h2></div></div>
+
+<div class="sl-block" data-block-type="code" style="width: 888.388px; height: 184.811px; left: 35.806px; top: 350px;" data-name="code-38fd3e" data-block-id="84d389139df25b39af48bfc760c51085"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 11;"><pre class="python" style="font-size: 20px; line-height: 24px; tab-size: 4;"><code data-line-numbers="">&gt;&gt;&gt; name = 'Al'
+&gt;&gt;&gt; age = 4000
+&gt;&gt;&gt; f'My name is {name}. Next year I will be {age + 1}.'
+'My name is Al. Next year I will be 4001.'</code></pre></div></div></section><section data-transition="fade" data-auto-animate="" data-id="96dfc649861892bef2cf35effe165bb3"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 89.0178px;" data-name="text-76ddde" data-block-id="38fe6d0f05c0b01ddf028a18327ac60a"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; color: rgb(164, 194, 244);"><h2>Useful String Methods</h2></div></div>
+
+<div class="sl-block" data-block-type="code" style="width: 500px; height: 300px; left: 230px; top: 263.878px;" data-name="code-a2ae31" data-block-id="ba711ffdfd335a04165c95b34bdad1f6"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 11;"><pre class="python" style="font-size: 24px; line-height: 29px; tab-size: 4;"><code data-line-numbers="">&gt;&gt;&gt; spam = 'Hello, world!'
+&gt;&gt;&gt; spam = spam.upper()
+&gt;&gt;&gt; spam
+'HELLO, WORLD!'
+&gt;&gt;&gt; spam = spam.lower()
+&gt;&gt;&gt; spam
+'hello, world!'</code></pre></div></div></section><section data-transition="fade" data-auto-animate="" data-id="6fd410d2f38e281d09c1aafbf9284620"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 89.0178px;" data-name="text-76ddde" data-block-id="7dd119a9421d7db41cbcfce2736ded01"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; color: rgb(164, 194, 244);"><h2>Useful String Methods</h2></div></div>
+
+<div class="sl-block" data-block-type="code" style="width: 500px; height: 300px; left: 230px; top: 263.878px;" data-name="code-a2ae31" data-block-id="e6f984e2f45742e1e5f05f9aef19070e"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 11;"><pre class="python" style="font-size: 24px; line-height: 29px; tab-size: 4;"><code data-line-numbers="">&gt;&gt;&gt; spam = 'Hello, world!'
+&gt;&gt;&gt; spam = spam.upper()
+&gt;&gt;&gt; spam
+'HELLO, WORLD!'
+&gt;&gt;&gt; spam = spam.lower()
+&gt;&gt;&gt; spam
+'hello, world!'</code></pre></div></div></section><section data-transition="fade" data-auto-animate="" data-id="cbf1f77e7f3439539fe5a3ff1dfc7925"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 89.0178px;" data-name="text-76ddde" data-block-id="1c5bb9b878c88785b9e6a669396e576f"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; color: rgb(164, 194, 244);"><h2>Useful String Methods</h2></div></div>
+
+<div class="sl-block" data-block-type="code" style="width: 803.681px; height: 240.311px; left: 82.348px; top: 273.303px;" data-name="code-a2ae31" data-block-id="c70e2fd0117accd375af250a3632c0e7"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 11;"><pre class="python" style="font-size: 24px; line-height: 29px; tab-size: 4;"><code data-line-numbers="">print('How are you?')
+feeling = input()
+if feeling.lower() == 'great':
+    print('I feel great too.')
+else:
+    print('I hope the rest of your day is good.')</code></pre></div></div></section><section data-transition="fade" data-auto-animate="" data-id="451aca35d6b2ff9c4c8a959aa92ea216"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 89.0178px;" data-name="text-76ddde" data-block-id="e60b87b94cf908a871ebcb186c594826"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; color: rgb(164, 194, 244);"><h2>Useful String Methods</h2></div></div>
+
+<div class="sl-block" data-block-type="code" style="width: 803.681px; height: 240.311px; left: 78.1595px; top: 217.803px;" data-name="code-a2ae31" data-block-id="a9007b9708d4f5d320117caea9c3f381"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 11;"><pre class="python" style="font-size: 24px; line-height: 29px; tab-size: 4;"><code data-line-numbers="">print('How are you?')
+feeling = input()
+if feeling.lower() == 'great':
+    print('I feel great too.')
+else:
+    print('I hope the rest of your day is good.')</code></pre></div></div>
+<div class="sl-block" data-block-type="code" style="width: 449.735px; height: 170.15px; left: 255.132px; top: 483.793px;" data-block-id="f06e931022433c8bc2fc130d941e0088" data-name="code-f3762d"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 12;"><pre class="python" style="font-size: 24px; line-height: 29px; tab-size: 4;"><code data-line-numbers="">Output:
+
+How are you?
+GREat
+I feel great too.</code></pre></div></div></section><section data-transition="fade" data-auto-animate="" data-id="7d1e704c900ce92517302600fe699e04"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 89.0178px;" data-name="text-76ddde" data-block-id="1034a2b9cc502337e717df9ceeb1d567"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; color: rgb(164, 194, 244);"><h2>Useful String Methods</h2></div></div>
+
+<div class="sl-block" data-block-type="code" style="width: 831.955px; height: 440.322px; left: 78.1595px; top: 217.803px;" data-name="code-a2ae31" data-block-id="440220770a6270bad86ee1e93511f9d5"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 11;"><pre class="python" style="font-size: 24px; line-height: 29px; tab-size: 4;"><code data-line-numbers="">&gt;&gt;&gt; spam = 'Hello, world!'
+&gt;&gt;&gt; spam.islower()
+False
+&gt;&gt;&gt; spam.isupper()
+False
+&gt;&gt;&gt; 'HELLO'.isupper()
+True
+&gt;&gt;&gt; 'abc12345'.islower()
+True
+&gt;&gt;&gt; '12345'.islower()
+False
+&gt;&gt;&gt; '12345'.isupper()
+False</code></pre></div></div></section><section data-transition="fade" data-auto-animate="" data-id="26d13cc9e32c4c3d4cc64f9653ac56c5"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 89.0178px;" data-name="text-76ddde" data-block-id="d220503b0c224485a7aa0029461f21dc"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; color: rgb(164, 194, 244);"><h2>Useful String Methods</h2></div></div>
+
+<div class="sl-block" data-block-type="code" style="width: 815.2px; height: 324.085px; left: 72.4px; top: 246.077px;" data-name="code-a2ae31" data-block-id="4b33c876b4e05255c2a4c3277ea1d7d5"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 11;"><pre class="python" style="font-size: 24px; line-height: 29px; tab-size: 4;"><code data-line-numbers="">&gt;&gt;&gt; 'Hello'.upper()
+'HELLO'
+&gt;&gt;&gt; 'Hello'.upper().lower()
+'hello'
+&gt;&gt;&gt; 'Hello'.upper().lower().upper()
+'HELLO'
+&gt;&gt;&gt; 'HELLO'.lower()
+'hello'
+&gt;&gt;&gt; 'HELLO'.lower().islower()
+True</code></pre></div></div></section><section data-transition="fade" data-auto-animate="" data-id="1a3c351b478a17af113f00ed566cc42e"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 89.0178px;" data-name="text-76ddde" data-block-id="36d131e0dac3535263cddae64aee12a7"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; color: rgb(164, 194, 244);"><h2>Useful String Methods</h2></div></div>
+
+<div class="sl-block" data-block-type="code" style="width: 817.294px; height: 510.471px; left: 72.4px; top: 172.774px;" data-name="code-a2ae31" data-block-id="87c45cae5b1136d62f9fb9ae98b8a3d3"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 11;"><pre class="python" style="font-size: 20px; line-height: 24px; tab-size: 4;"><code data-line-numbers="">&gt;&gt;&gt; 'hello'.isalpha()
+True
+&gt;&gt;&gt; 'hello123'.isalpha()
+False
+&gt;&gt;&gt; 'hello123'.isalnum()
+True
+&gt;&gt;&gt; 'hello'.isalnum()
+True
+&gt;&gt;&gt; '123'.isdecimal()
+True
+&gt;&gt;&gt; '    '.isspace()
+True
+&gt;&gt;&gt; 'This Is Title Case'.istitle()
+True
+&gt;&gt;&gt; 'This Is Title Case 123'.istitle()
+True
+&gt;&gt;&gt; 'This Is not Title Case'.istitle()
+False
+&gt;&gt;&gt; 'This Is NOT Title Case Either'.istitle()
+False</code></pre></div></div></section><section data-transition="fade" data-auto-animate="" data-id="1ade3c12b95a7ff57d90a5910790b97f"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 89.0178px;" data-name="text-76ddde" data-block-id="efb89a37057d1e3e8da1b1427f56c03c"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; color: rgb(164, 194, 244);"><h2>Useful String Methods</h2></div></div>
+
+<div class="sl-block" data-block-type="code" style="width: 823.577px; height: 341.875px; left: 68.2115px; top: 250.265px;" data-name="code-a2ae31" data-block-id="7b8e8b5707def42e12af082141798ecb"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 11;"><pre class="python" style="font-size: 20px; line-height: 24px; tab-size: 4;"><code data-line-numbers="">while True:
+    print('Enter your age:')
+    age = input()
+    if age.isdecimal():
+        break
+    print('Please enter a number for your age.')
+
+while True:
+    print('Select a new password (letters and numbers only):')
+    password = input()
+    if password.isalnum():
+        break
+    print('Passwords can only have letters and numbers.')</code></pre></div></div></section><section data-transition="fade" data-auto-animate="" data-id="fc6b218e06507f23a6f49e72554f63b9"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 89.0178px;" data-name="text-76ddde" data-block-id="39f7f8ba783003a88358448219b5bddb"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; color: rgb(164, 194, 244);"><h2>Useful String Methods</h2></div></div>
+
+<div class="sl-block" data-block-type="code" style="width: 823.577px; height: 341.875px; left: 68.2115px; top: 250.265px;" data-name="code-a2ae31" data-block-id="5eb716aaa8f0a257ac80e6f8e13b7c2a"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 11;"><pre class="python" style="font-size: 20px; line-height: 24px; tab-size: 4;"><code data-line-numbers="">&gt;&gt;&gt; 'Hello, world!'.startswith('Hello')
+True
+&gt;&gt;&gt; 'Hello, world!'.endswith('world!')
+True
+&gt;&gt;&gt; 'abc123'.startswith('abcdef')
+False
+&gt;&gt;&gt; 'abc123'.endswith('12')
+False
+&gt;&gt;&gt; 'Hello, world!'.startswith('Hello, world!')
+True
+&gt;&gt;&gt; 'Hello, world!'.endswith('Hello, world!')
+True</code></pre></div></div></section><section data-transition="fade" data-auto-animate="" data-id="611058f32d1159a0c6f113167b6a0aca"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 89.0178px;" data-name="text-76ddde" data-block-id="b67b8360c5175bdafdc1fa8f30101a43"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; color: rgb(164, 194, 244);"><h2>Useful String Methods</h2></div></div>
+
+<div class="sl-block" data-block-type="code" style="width: 786.926px; height: 187.94px; left: 86.537px; top: 350px;" data-name="code-a2ae31" data-block-id="ae27891019205790746c971d5014545d"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 11;"><pre class="python" style="font-size: 20px; line-height: 24px; tab-size: 4;"><code data-line-numbers="">&gt;&gt;&gt; ', '.join(['cats', 'rats', 'bats'])
+'cats, rats, bats'
+&gt;&gt;&gt; ' '.join(['My', 'name', 'is', 'Simon'])
+'My name is Simon'
+&gt;&gt;&gt; 'ABC'.join(['My', 'name', 'is', 'Simon'])
+'MyABCnameABCisABCSimon'</code></pre></div></div></section><section data-transition="fade" data-auto-animate="" data-id="710db585195bb94521133e489c3a25ea"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 89.0178px;" data-name="text-76ddde" data-block-id="89aca53dbd0879106824b911b31990b4"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; color: rgb(164, 194, 244);"><h2>Useful String Methods</h2></div></div>
+
+<div class="sl-block" data-block-type="code" style="width: 786.926px; height: 187.94px; left: 86.537px; top: 350px;" data-name="code-a2ae31" data-block-id="3e79ec0c77a4873106661a3a7974ccf9"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 11;"><pre class="python" style="font-size: 20px; line-height: 24px; tab-size: 4;"><code data-line-numbers="">&gt;&gt;&gt; 'My name is Simon'.split()
+['My', 'name', 'is', 'Simon']
+&gt;&gt;&gt; 'MyABCnameABCisABCSimon'.split('ABC')
+['My', 'name', 'is', 'Simon']
+&gt;&gt;&gt; 'My name is Simon'.split('m')
+['My na', 'e is Si', 'on']</code></pre></div></div></section><section data-transition="fade" data-auto-animate="" data-id="c9c17a458799d3cc3c2faa697667c247"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 89.0178px;" data-name="text-76ddde" data-block-id="158483e57893cd4cc8169b23768748dd"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; color: rgb(164, 194, 244);"><h2>Useful String Methods</h2></div></div>
+
+<div class="sl-block" data-block-type="code" style="width: 887.455px; height: 461.254px; left: 36.2725px; top: 191.876px;" data-name="code-a2ae31" data-block-id="860769620aa0ca4f8793006d2a7a69a4"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 11;"><pre class="python" style="font-size: 18px; line-height: 22px; tab-size: 4;"><code data-line-numbers="">&gt;&gt;&gt; spam = '''Dear Alice,
+How have you been? I am fine.
+There is a container in the fridge
+that is labeled "Milk Experiment."
+
+Please do not drink it.
+Sincerely,
+Bob'''
+&gt;&gt;&gt; spam.split('\n')
+['Dear Alice,', 'How have you been? I am fine.', 'There is a container in the
+fridge', 'that is labeled "Milk Experiment."', '', 'Please do not drink it.',
+'Sincerely,', 'Bob']</code></pre></div></div></section><section data-transition="fade" data-auto-animate="" data-id="5af305f2f6023296b5cc867eeed2b2c2"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 89.0178px;" data-name="text-76ddde" data-block-id="870747f8156779805af04f34009d8ca4"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; color: rgb(164, 194, 244);"><h2>Useful String Methods</h2></div></div>
+
+<div class="sl-block" data-block-type="code" style="width: 572.254px; height: 260.196px; left: 193.873px; top: 281.933px;" data-name="code-a2ae31" data-block-id="0d2ab8f8024e2ac9ee052d895f58f640"><div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 11;"><pre class="python" style="font-size: 24px; line-height: 29px; tab-size: 4;"><code data-line-numbers="">&gt;&gt;&gt; spam = '    Hello, World    '
+&gt;&gt;&gt; spam.strip()
+'Hello, World'
+&gt;&gt;&gt; spam.lstrip()
+'Hello, World    '
+&gt;&gt;&gt; spam.rstrip()
+'    Hello, World'</code></pre></div></div></section><section data-transition="fade" data-auto-animate="" data-id="f22b025e3bfe469315bf55b09299ff67"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 298.453px;" data-name="text-76ddde" data-block-id="86a175faba8ab628fd193df883ca2b56"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10; color: rgb(164, 194, 244);"><h2>Installing Python and VS Code locally</h2></div></div>
+
+</section>
+			</div>
+		</div>
+
+		<script>
+			var SLConfig = {"deck": {"id":3225342,"slug":"introduction-to-python-l7","title":"Introduction to Python - L7","description":"","width":960,"height":700,"margin":0.05,"visibility":"all","published_at":"2024-07-10T11:56:31.198Z","sanitize_messages":null,"thumbnail_url":"https://s3.amazonaws.com/media-p.slid.es/thumbnails/f0d4e632b97b3176b92ee2ecb8551e7a/thumb.jpg?1720612601","view_count":0,"user":{"id":2683700,"username":"zohairulhasan","name":"Zohair Ul Hasan","description":null,"thumbnail_url":"https://graph.facebook.com/v5.0/3962896787259490/picture?access_token=EAACEyfWCFtgBOZBY9ybVEqQZAinKYNsZBuLHhW4KCxcbsyU2v4VwWCgnhK2AFGj9698akoSuok5l7ZBJoszQ0ZCec1JJbukq3nXG0ZCte3j4yLls9fZCoKZA218tLgQKqgpzzmaUoVliqhauOhD5gpZCjwZBeeTufrJycNXC7cOkAIkufXBJqu0XnEwoTFELVZAHFxh2ttSxVXNHuDR7p0aQv5VrmGBZAfaGDWZCDEOVWky8apLQiQXjdZAr2r","account_type":"lite","team_id":null,"settings":{"id":57289514,"present_controls":false,"present_upsizing":true,"present_pointer":true,"present_notes":true,"default_deck_tag_id":null}},"background_transition":"none","transition":"fade","theme_id":null,"theme_font":"helvetica","theme_color":"black-mint","auto_slide_interval":0,"comments_enabled":false,"forking_enabled":false,"rolling_links":false,"center":false,"shuffle":false,"should_loop":false,"share_notes":false,"slide_number":true,"slide_count":27,"rtl":false,"version":2,"collaborative":false,"deck_user_editor_limit":1,"data_updated_at":1720615072085,"font_typekit":null,"font_google":null,"time_limit":null,"navigation_mode":"default","upsizing_enabled":true,"language":"en","notes":{}}};
+
+
+			// Use local fonts
+			SLConfig.fonts_url = 'lib/fonts/';
+		</script>
+
+		<script src="lib/reveal.js"></script>
+		<script src="lib/reveal-plugins.js"></script>
+		<script src="lib/offline.js"></script>
+
+		<!-- Initialize the presentation -->
+		<script>
+			Reveal.initialize({
+				width: 960,
+				height: 700,
+				margin: 0.05,
+				
+
+				hash: true,
+				controls: true,
+				progress: true,
+				mouseWheel: false,
+				showNotes: false,
+				slideNumber: true,
+				fragmentInURL: true,
+
+				autoSlide: 0,
+				autoSlideStoppable: true,
+
+				autoAnimateMatcher: SL.deck.AutoAnimate.matcher,
+
+				scrollActivationWidth: null,
+
+				center: false,
+				shuffle: false,
+				loop: false,
+				rtl: false,
+				navigationMode: "default",
+
+				transition: "fade",
+				backgroundTransition: "none",
+
+				highlight: {
+					escapeHTML: false
+				},
+
+				plugins: [ RevealZoom, RevealNotes, RevealMarkdown, RevealHighlight ]
+			});
+		</script>
+
+		
+
+
+	</body>
+</html>
